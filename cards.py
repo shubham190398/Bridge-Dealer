@@ -8,4 +8,6 @@ class Suit(str, Enum):
     CLUBS = "C"
 
 
-RANKS = list("23456789TJQKA")
+RANKS = "23456789TJQKA"
+
+FULL_DECK = [r + s.value for s in Suit for r in RANKS]
