@@ -1,7 +1,7 @@
 from enum import Enum
 
 
-class Suit(str, Enum):
+class Suit(Enum):
     SPADES = "S"
     HEARTS = "H"
     DIAMONDS = "D"

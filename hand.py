@@ -24,3 +24,4 @@ class Hand:
 
     def __repr__(self):
         return f"Hand(hcp={self.hcp()}, cards={self.cards})"
+
